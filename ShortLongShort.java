@@ -4,9 +4,11 @@ public class ShortLongShort {
         String b = args[1];
 
         if (a.length() > b.length()){
-            System.out.println(b + a + b);
+            String c = b + a + b;
+            System.out.println(c);
         }else{
-            System.out.println(a + b + a);
+            String c = a + b + a;
+            System.out.println(c);
         }
     }
 }
